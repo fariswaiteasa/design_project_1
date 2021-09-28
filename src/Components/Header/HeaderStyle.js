@@ -6,7 +6,6 @@ export const HeaderContainer = styled.div`
     align-items: center;
     position: relative;
     background: transparent;
-    z-index: 1;
 `;
 
 export const Logo = styled.div`

@@ -2,6 +2,7 @@ import React from 'react';
 import GlobalStyle from './globalStyles'
 import Header from './Components/Header';
 import Exhibits from './Components/Exhibits';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Exhibits />
       <Exhibits />
       <Exhibits />
-      <Exhibits />
+      <Footer />
     </>
   );
 }
