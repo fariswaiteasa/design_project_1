@@ -1,4 +1,4 @@
-# Design Project Objectives:
+# Front-End Design Project:
 
 This repo is a front-end project with a focus on design.
 
