@@ -22,8 +22,20 @@ export const Logo = styled.div`
 
      > h1 {
          font-size: 15px;
-     }
-`;
+         overflow: hidden;
+         background-clip: text;
+         background: linear-gradient(to right, black, black 50%, red 50%);
+         -webkit-text-fill-color: transparent;
+         background-size: 200% 100%;
+         -webkit-background-clip: text;
+         transition: background-position 275ms ease;
+         text-decoration: none; // text decorations are clipped in WebKit browsers
+         &:hover {
+             background-position: 0 100%;
+             background-position: 100%;
+            }
+        }
+    `;
 
 export const Navigation = styled.div`
     flex: 0.7;

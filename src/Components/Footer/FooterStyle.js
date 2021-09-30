@@ -60,5 +60,10 @@ export const Socials = styled.div`
     > .MuiSvgIcon-root {
         margin: 20px;
         font-size: 40px;
+
+        &:hover {
+            color: red;
+            transition: 200ms ease-in;
+        }
     }
 `;

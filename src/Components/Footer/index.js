@@ -17,7 +17,7 @@ const Footer = () => {
                 <FooterLeft>
                     <h1>EXHIBITS.</h1>
                     <h1>CURATORS.</h1>
-                    <h1>CONTACT.</h1>
+                    <h1>REGISTRATION.</h1>
                 </FooterLeft>
                 <FooterRight>
                     <Socials>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <Copyright>
                     <h1>COPYRIGHT 2021 ANIMATICS PRODUCTION HOUSE LLC</h1>
                     <h1>ALL RIGHTS RESERVED</h1>
-                    <img src={logo} />
+                    <img src={logo} alt="Logo" />
                 </Copyright>
             </FooterContainer>
         </>
