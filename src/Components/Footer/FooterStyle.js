@@ -24,6 +24,11 @@ export const FooterLeft = styled.div`
         font-size: 30px;
         padding: 10px;
     }
+
+    > h2 {
+        font-size: 20px;
+        padding: 10px;       
+    }
 `;
 
 export const FooterRight = styled.div`

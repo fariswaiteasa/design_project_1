@@ -12,7 +12,6 @@ function App() {
       <Header />
       <Showcase />
       <Exhibits />
-      <Exhibits />
       <Footer />
     </>
   );

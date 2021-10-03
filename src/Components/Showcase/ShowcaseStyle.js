@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const ShowcaseContainer = styled.div`
     overflow: hidden;
+    height: 600px;
+    padding: 0;
     > video {
         width: 100vw;
         height: 600px;
