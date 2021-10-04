@@ -14,13 +14,13 @@ const Showcase = () => {
                 <video src={video} autoPlay muted loop ></video>
                 <ShowcaseText>
                     <ShowcaseTitle>
-                        <h1 class="one">art/parc</h1>
-                        <h1 class="two">&nbsp;|</h1>
-                        <h1 class="three">&nbsp;2021</h1>
+                        <h1 className="one">art/parc</h1>
+                        <h1 className="two">&nbsp;|</h1>
+                        <h1 className="three">&nbsp;2021</h1>
                     </ShowcaseTitle>
                     <ShowcaseDesc>Outdoor Art Installation</ShowcaseDesc>
                 </ShowcaseText>
-            </ShowcaseContainer>
+             </ShowcaseContainer>
         </>
     )
 }

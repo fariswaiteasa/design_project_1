@@ -13,8 +13,8 @@ const Exhibits = () => {
 
     return (
         <Container>
-            <Parallax pages={3}>
-                <ParallaxLayer sticky={{start: 0, end: 3}} style={{...alignCenter, justifyContent: 'flex-end'}}>
+            <Parallax pages={5}>
+                <ParallaxLayer sticky={{start: 1, end: 3}} style={{...alignCenter, justifyContent: 'flex-end'}}>
                     <TextContainer>
                         <h1>art/parc</h1>
                         <h2>{description}</h2>

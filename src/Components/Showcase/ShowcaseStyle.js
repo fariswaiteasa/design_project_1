@@ -2,25 +2,26 @@ import styled from 'styled-components';
 
 export const ShowcaseContainer = styled.div`
     overflow: hidden;
-    height: 600px;
+    position: relative;
+    height: 700px;
     padding: 0;
     > video {
         width: 100vw;
-        height: 600px;
+        height: 700px;
         object-fit: cover;
     }
 `;
 
 export const ShowcaseText = styled.div`
-    position: relative;
+    position: absolute;
     left: 40%;
-    bottom: 350px;
+    top: 40%;
 `;
 
 export const ShowcaseTitle = styled.div`
     display: flex;
     > h1 {
-        font-size: 4em;
+        font-size: 5em;
 
         &.one {
             color: #edea3b;
@@ -37,7 +38,8 @@ export const ShowcaseTitle = styled.div`
 
 `;
 
-export const ShowcaseDesc = styled.p`
+export const ShowcaseDesc = styled.h1`
     color: white;
-    font-weight: 300;
+    font-size: 2em;
+    font-weight: 700;
 `;

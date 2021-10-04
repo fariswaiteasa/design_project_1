@@ -2,8 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     overflow: hidden;
-    padding: 10vw;
+    background: black;
+    padding: 5vw;
     height: 100vh;
+    color: white;
 `;
 
 export const ImageContainer = styled.div`
@@ -21,7 +23,7 @@ export const ImageContainer = styled.div`
 export const TextContainer = styled.div`
     display: flex;
     flex-direction: column;
-    padding-right: 15vw;
+    padding-right: 5vw;
     width: 40vw;
 
     > h1 {
