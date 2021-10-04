@@ -15,6 +15,7 @@ const Header = () => {
                     <h1>art/parc | 2021</h1>
                 </Logo>
                 <Navigation>
+                    <h1>about</h1>
                     <h1>exhibits</h1>
                     <h1>curators</h1>
                     <h1>registration</h1>

@@ -4,7 +4,8 @@ export const HeaderContainer = styled.div`
     display: flex;
     padding: 20px;
     align-items: center;
-    position: relative;
+    position: absolute;
+    z-index: 999;
     background: transparent;
 `;
 
@@ -24,7 +25,7 @@ export const Logo = styled.div`
          font-size: 15px;
          overflow: hidden;
          background-clip: text;
-         background: linear-gradient(to right, black, black 50%, red 50%);
+         background: linear-gradient(to right, black, black 50%, #edea3b 50%);
          -webkit-text-fill-color: transparent;
          background-size: 200% 100%;
          -webkit-background-clip: text;
@@ -44,12 +45,13 @@ export const Navigation = styled.div`
     padding-right: 40px;
 
     > h1 {
-        font-size: 10px;
-        font-weight: lighter;
+        font-size: 15px;
         margin-left: 40px;
+        cursor: pointer;
 
         &:hover {
-            color: red;
+            transform: translateY(-5px);
+            transition: 200ms ease-in;
         }
     }
 `;

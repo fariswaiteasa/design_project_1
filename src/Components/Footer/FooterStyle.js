@@ -14,7 +14,6 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterLeft = styled.div`
-    //background-color: lightpink;
     grid-area: footleft;
     display: flex;
     flex-direction: column;
@@ -67,7 +66,7 @@ export const Socials = styled.div`
         font-size: 40px;
 
         &:hover {
-            color: red;
+            color: #edea3b;
             transition: 200ms ease-in;
         }
     }
