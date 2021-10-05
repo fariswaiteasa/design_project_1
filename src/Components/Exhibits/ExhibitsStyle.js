@@ -1,17 +1,31 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
-    background: black;
+    padding: 5vw;
     width: 100vw;
     height: 100vh;
-    color: white;
 `;
 
 export const ImageContainer = styled.div`
     display: flex;
     position: relative;
+    flex-direction: column;
+    background: black;
+    width: 50vw;
+    height: auto;
+    z-index: 0;
+`;
+
+export const Image = styled.div`
+    display: flex;
+    position: absolute;
     left: ${props => props.left};
+    top: ${props => props.top};
 
     > img {
         width: 200px;
@@ -23,9 +37,8 @@ export const ImageContainer = styled.div`
 export const TextContainer = styled.div`
     display: flex;
     flex-direction: column;
-    padding-right: 5vw;
-    width: 40vw;
-
+    width: 50vw;
+    padding: 30px;
     > h1 {
         font-size: 100px;
     }

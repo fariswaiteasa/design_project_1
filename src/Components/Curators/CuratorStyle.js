@@ -3,15 +3,16 @@ import styled from 'styled-components';
 export const Container = styled.div`
     padding: 5vw;
     > h1 {
-        font-size: 50px;
+        font-size: 100px;
         padding: 30px;
+        text-align: end;
     }
 `;
 
 export const CardContainer = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 `;
 
@@ -20,6 +21,7 @@ export const Card = styled.div`
     position: relative;
     width: 200px;
     height: 400px;
+    margin: 0 50px 0 50px;
     
     > img {
         object-fit: fill;

@@ -19,7 +19,6 @@ const Registration = () => {
             <Container>
                 <RegisterInfo>
                     <h1>registration.</h1>
-                    <h2></h2>
                 </RegisterInfo>
                 <TicketContainer>
                     <Ticket>

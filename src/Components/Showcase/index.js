@@ -11,7 +11,7 @@ const Showcase = () => {
     return (
         <>
             <ShowcaseContainer>
-                <video src={video} autoPlay muted loop ></video>
+                <video src={video} muted loop ></video>
                 <ShowcaseText>
                     <ShowcaseTitle>
                         <h1 className="one">art/parc</h1>

@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const RegisterInfo = styled.div`
 
     > h1 {
-        font-size: 50px;
+        font-size: 100px;
         padding: 30px;
     }
 `;
