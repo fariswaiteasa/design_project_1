@@ -5,11 +5,19 @@ export const FooterContainer = styled.div`
     padding: 20px;
     display: grid;
     color: white;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.7fr 0.3fr;
     grid-template-areas: 
     "footleft footright"
     "copyright copyright";
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
+        grid-template-areas: "footleft" "footright" "copyright";
+
+    }
 
 `;
 
@@ -45,6 +53,7 @@ export const Copyright = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 10px;
 
     > h1 {

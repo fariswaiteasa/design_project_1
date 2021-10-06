@@ -37,11 +37,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
-
-{
-    /*
-    #TODO: Background pattern for footer using SVG pattern or self make in Hydra
-    #TODO: Links for socials
-    */
-}
+export default Footer;

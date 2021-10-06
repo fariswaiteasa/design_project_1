@@ -6,8 +6,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    padding: 5vw;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 `;
 
@@ -40,12 +39,11 @@ export const TextContainer = styled.div`
     width: 50vw;
     padding: 30px;
     > h1 {
-        font-size: 100px;
+        font-size: 50px;
     }
 
     > h2 {
-        font-size: 50px;
+        font-size: 16px;
         font-weight: 300;
     }
 `;
-

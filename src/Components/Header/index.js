@@ -5,6 +5,7 @@ import {
     Navigation,
 } from './HeaderStyle';
 import logo from '../../images/triquetra.png';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Header = () => {
     return (
@@ -19,6 +20,7 @@ const Header = () => {
                     <h1>exhibits</h1>
                     <h1>curators</h1>
                     <h1>registration</h1>
+                    <MenuIcon />
                 </Navigation>
             </HeaderContainer>
         </>

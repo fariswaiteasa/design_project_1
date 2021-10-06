@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    padding: 5vw;
+    display: flex;
+    width: 100%;
+    height: 100vh;
     > h1 {
-        font-size: 100px;
+        font-size: 50px;
         padding: 30px;
         text-align: end;
     }
@@ -19,12 +21,11 @@ export const CardContainer = styled.div`
 export const Card = styled.div`
     display: flex;
     position: relative;
-    width: 200px;
-    height: 400px;
-    margin: 0 50px 0 50px;
     
     > img {
-        object-fit: fill;
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
     }
 
     > h1 {

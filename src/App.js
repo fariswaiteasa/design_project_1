@@ -6,6 +6,7 @@ import Exhibits from './Components/Exhibits';
 import Curators from './Components/Curators';
 import Registration from './Components/Registration';
 import Footer from './Components/Footer';
+import Background from './Components/Background';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <GlobalStyle />
       <Header />
       <Showcase />
-      <Exhibits />
-      <Curators />
+      {/* <Background /> */}
+      {/* <Exhibits /> */}
+      {/* <Curators /> */}
       <Registration />
       <Footer />
     </>

@@ -5,6 +5,7 @@ export const HeaderContainer = styled.div`
     padding: 20px;
     align-items: center;
     position: absolute;
+    width: 100%;
     z-index: 999;
     background: transparent;
 `;
@@ -18,13 +19,13 @@ export const Logo = styled.div`
      > img {
          width: 20px;
          height: 20px;
-         padding-right: 5px;
      }
 
      > h1 {
          font-size: 15px;
          overflow: hidden;
          background-clip: text;
+         padding-left: 5px;
          background: linear-gradient(to right, black, black 50%, #edea3b 50%);
          -webkit-text-fill-color: transparent;
          background-size: 200% 100%;
@@ -50,8 +51,28 @@ export const Navigation = styled.div`
         cursor: pointer;
 
         &:hover {
-            transform: translateY(-5px);
+            color: white;
             transition: 200ms ease-in;
+        }
+    }
+
+    > .MuiSvgIcon-root {
+        display: none;
+        width: 50px;
+        height: auto;
+        &:hover {
+            color: #edea3b;
+            transition: 200ms ease-in;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        > h1 {
+            display: none;
+        }
+        
+        > .MuiSvgIcon-root {
+            display: flex;
         }
     }
 `;
