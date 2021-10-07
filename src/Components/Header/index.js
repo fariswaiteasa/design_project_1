@@ -13,7 +13,7 @@ const Header = () => {
             <HeaderContainer>
                 <Logo>
                     <img src={logo} alt="Logo"/>
-                    <h1>art/parc | 2021</h1>
+                    <h1>art/parc.2021</h1>
                 </Logo>
                 <Navigation>
                     <h1>about</h1>

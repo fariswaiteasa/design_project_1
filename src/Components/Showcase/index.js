@@ -15,8 +15,8 @@ const Showcase = () => {
                 <ShowcaseText>
                     <ShowcaseTitle>
                         <h1 className="one">art/parc</h1>
-                        <h1 className="two">&nbsp;|</h1>
-                        <h1 className="three">&nbsp;2021</h1>
+                        <h1 className="two">.</h1>
+                        <h1 className="three">2021</h1>
                     </ShowcaseTitle>
                     <ShowcaseDesc>Outdoor Art Installation</ShowcaseDesc>
                 </ShowcaseText>

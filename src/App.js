@@ -16,7 +16,7 @@ function App() {
       <Showcase />
       {/* <Background /> */}
       {/* <Exhibits /> */}
-      {/* <Curators /> */}
+      <Curators />
       <Registration />
       <Footer />
     </>

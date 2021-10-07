@@ -12,6 +12,7 @@ export const RegisterInfoSection = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: justify;
     margin: 40px;
 
     > h1 {
@@ -50,6 +51,7 @@ export const FacilitiesDesc = styled.div`
     min-height: 300px;
     margin: 0 1vw 0 1vw;
     background: black;
+    text-align: justify;
     color: white;
     
     > h2 {
@@ -66,6 +68,12 @@ export const FacilitiesDesc = styled.div`
         width: 70px;
         height: 70px;
         align-self: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        > h2 {
+            font-size: 16px;
+        }
     }
 `;
 

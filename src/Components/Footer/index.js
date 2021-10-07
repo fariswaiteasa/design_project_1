@@ -15,7 +15,7 @@ const Footer = () => {
         <>
             <FooterContainer>
                 <FooterLeft>
-                    <h1>art/parc | 2021</h1>
+                    <h1>art/parc.2021</h1>
                     <h2>EXHIBITS.</h2>
                     <h2>CURATORS.</h2>
                     <h2>REGISTRATION.</h2>

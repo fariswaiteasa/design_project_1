@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 100vh;
     > h1 {
         font-size: 50px;
         padding: 30px;
@@ -14,8 +14,13 @@ export const Container = styled.div`
 export const CardContainer = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    margin: 0 30px 0 30px;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const Card = styled.div`
@@ -23,7 +28,7 @@ export const Card = styled.div`
     position: relative;
     
     > img {
-        width: 300px;
+        min-width: 250px;
         height: 400px;
         object-fit: cover;
     }
